@@ -44,7 +44,7 @@ input:focus {
   height: fit-content;
 }
 
-.inputLegend {
+.inputLegend, .outputLegend {
   font-size: large;
   text-align: left;
 }
@@ -55,12 +55,25 @@ input:focus {
   border-radius: 15px;
   padding: 0;
   background-color: #192a56;
-  color: #34495e;
+}
+
+.outputBox {
+  margin: 1rem;
+  border: 1px solid #34495e;
+  border-radius: 15px;
+  padding: 0.5rem;
+  background-color: #34495e;
+  
 }
 
 .validationMsg {
     font-size: small;
     margin: 0;
+}
+
+.smallSelectLegend {
+  font-size: small;
+  color: #ecf0f1;
 }
 
 button {
@@ -105,9 +118,18 @@ button:disabled {
   opacity: 1;
 }
 
+.deleteBtn {
+  background-color: #e74c3c;
+  text-align: right;
+}
+
 
 .info { color: #e1b12c}
 
 .success { color: #2ecc71}
 
 .error { color: #e74c3c}
+
+p.error, p.success, p.info {
+  font-size: small;
+}

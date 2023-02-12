@@ -1,0 +1,19 @@
+button {
+    margin: 1rem 1rem
+}
+
+input {
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+b {
+    text-decoration: underline;
+}
+
+#presenseCheckbox {
+    width: min-content;
+}
+
+.presenseBox {
+    font-size: large;
+}

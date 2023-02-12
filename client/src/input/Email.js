@@ -6,11 +6,9 @@ const Email = props => {
         if (!validEmail.test(input)) {
             props.setEmailErr(true);
             props.setStudentEmail(input);
-            console.log("not pass" + props.emailErr + input);
         } else {
             props.setEmailErr(false);
             props.setStudentEmail(input);
-            console.log("pass" + props.emailErr + input);
         }
 
         
